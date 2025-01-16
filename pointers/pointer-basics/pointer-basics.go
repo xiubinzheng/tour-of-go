@@ -14,5 +14,11 @@ func main(){
 	p = &j
 	*p = *p / 37
 	fmt.Println(j)
+
+
+	var pointer *int = &i 
+	
+
+	fmt.Println(*pointer)
 	
 }
